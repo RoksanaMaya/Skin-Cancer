@@ -20,7 +20,7 @@ This project develops an AI-driven risk assessment model for skin cancer detecti
 
 ## Workflow
 
-* **1. Data Collection & Preprocessing**
+**1. Data Collection & Preprocessing**
 
 * Dataset: HAM10000 dataset (10,015 dermoscopic images).
 
