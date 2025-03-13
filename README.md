@@ -46,85 +46,85 @@ This project develops an AI-driven risk assessment model for skin cancer detecti
 
 ### 2. Model Architecture
 
-**CNN-based Image Processing:**
+***CNN-based Image Processing:***
 
-*MobileNetV2 extracts features.
+* MobileNetV2 extracts features.
 
-*Flattened & passed through dense layers.
+* Flattened & passed through dense layers.
 
-**DNN-based Clinical Data Processing:**
+***DNN-based Clinical Data Processing:***
 
-*Fully connected layers process clinical metadata.
+* Fully connected layers process clinical metadata.
 
-**Multimodal Fusion:**
+***Multimodal Fusion:***
 
-*Image & clinical data concatenated.
+* Image & clinical data concatenated.
 
-*Dense layer predicts risk level.
+* Dense layer predicts risk level.
 
 ### 3. Training & Evaluation
 
-**Training:**
+***Training:***
 
-*Adam optimizer.
+* Adam optimizer.
 
-*Sparse categorical cross-entropy loss.
+* Sparse categorical cross-entropy loss.
 
-**Evaluation:**
+***Evaluation:***
 
-*Accuracy & loss analysis.
+* Accuracy & loss analysis.
 
-*Classification report (precision, recall, F1-score).
+* Classification report (precision, recall, F1-score).
 
-*Confusion matrix for misclassification analysis.
+* Confusion matrix for misclassification analysis.
 
 ### 4. Deployment & Future Improvements
 
-**Planned Enhancements:**
+***Planned Enhancements:***
 
-*Address class imbalance with SMOTE.
+* Address class imbalance with SMOTE.
 
-*Improve generalization with dropout & tuning.
+* Improve generalization with dropout & tuning.
 
-*Collect diverse dataset for better generalizability.
+* Collect diverse dataset for better generalizability.
 
-**Potential Applications:**
+***Potential Applications:***
 
-*Telemedicine & remote dermatology screening.
+* Telemedicine & remote dermatology screening.
 
-*Integration with clinical decision support systems.
+* Integration with clinical decision support systems.
 
 ## Challenges
 
-**Dataset Limitations:
+***Dataset Limitations:***
 
-*Class imbalance with a dominance of benign lesions.
+* Class imbalance with a dominance of benign lesions.
 
-*Lack of longitudinal data to track lesion progression.
+* Lack of longitudinal data to track lesion progression.
 
-*Limited diversity in demographics, potentially affecting generalizability.
+* Limited diversity in demographics, potentially affecting generalizability.
 
-**Model-Related Challenges:**
+***Model-Related Challenges:***
 
-*Low recall for high-risk lesions.
+* Low recall for high-risk lesions.
 
-*Overfitting on training data.
+* Overfitting on training data.
 
-*Simplified risk categorization instead of continuous risk scores.
+* Simplified risk categorization instead of continuous risk scores.
 
-*Balancing image and metadata feature importance.
+* Balancing image and metadata feature importance.
 
-**Technical Constraints:**
+***Technical Constraints:***
 
-*High computational requirements for deep learning models.
+* High computational requirements for deep learning models.
 
-*Challenges in AI explainability for clinical trust.
+* Challenges in AI explainability for clinical trust.
 
-**Deployment Issues:**
+***Deployment Issues:***
 
-*Need for real-world validation in clinical settings.
+* Need for real-world validation in clinical settings.
 
-*Ethical and legal concerns regarding AI-based diagnosis.
+* Ethical and legal concerns regarding AI-based diagnosis.
 
 ## Conclusion
 
